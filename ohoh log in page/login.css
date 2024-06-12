@@ -13,7 +13,7 @@
     display: flex;
     height: 100vh;
     width: 100vw;
-    font-family: montserrat;
+    font-family: inter;
 }
 
 /* left side */
@@ -35,7 +35,7 @@
 /* right side */
 
 .right-side {
-    height: inherit;
+    height: 100vh;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -64,14 +64,14 @@
     justify-content: center;
     align-items: center;
     width: 534px;
-    height: 460px;
-    margin: 3px;
-}
+    height: 500px;
+    /* margin: 3px;*/
+} 
 
 .formlable {
     width: 61px;
     height: 19x;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     font-weight: 500;
     font-size: 16px;
 }
@@ -84,6 +84,7 @@
     padding-left: 1rem;
     font-size: 16px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bottom {
@@ -92,35 +93,39 @@
 }
 
 .footer {
-    padding-top:6rem;
+    padding-top:60px;
     display: flex;
     justify-content: center;
     align-items: end;
     font-size:16px;
+    padding-left: 120px;
 }
 
 .remember{
+    margin-top: 10px;
     color: #030229;
+    opacity: 74%;
 }
 
 .button {
-    width: 534px;
-    height: 62px;
+    width: 555px;
+    height: 60px;
     top: 785.2px;
     left: 834px;
     background-color: var(--submit);
     font-size: 18px;
     text-decoration: none;
     color: #FFFFFF;
+    margin-top: 50px;
 }
 
 .dark{
-    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
 .dark1{
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 h1 {
@@ -139,4 +144,8 @@ p{
 .a1 {
     text-decoration: none;
     color: #FFFFFF;
+}
+.checkbox {
+    height: 15px;
+    width:15px;
 }
